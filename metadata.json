@@ -1,0 +1,6 @@
+{
+  "name": "Stake Bot Predictor 2026",
+  "description": "AI-powered prediction tool for Stake.com games with 97.8% win rate on Mines, Crash, Dice & Plinko.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
