@@ -12,6 +12,13 @@ const isProd = process.env.NODE_ENV === 'production';
 
 app.use(express.json());
 
+
+
+- name: Deploy Script to Bunny Edge Scripting
+  uses: BunnyWay/actions/deploy-script@main
+  with:
+    script_id: 98891
+    file: "script.ts"
 // ─────────────────────────────────────────────
 // STATE & STORAGE
 // ─────────────────────────────────────────────
