@@ -304,7 +304,7 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`🚀 Stake Bot Predictor running on 40666723-production.up.railway.app:${PORT}`);
+    console.log(`🚀 Stake Bot Predictor running on https://stake-jcb8g.bunny.run/:${PORT}`);
     pollTelegram().catch(console.error);
   });
 }
