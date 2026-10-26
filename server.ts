@@ -310,3 +310,10 @@ async function startServer() {
 }
 
 startServer().catch(console.error);
+
+
+- name: Deploy Script to Bunny Edge Scripting
+  uses: BunnyWay/actions/deploy-script@main
+  with:
+    script_id: 98891
+    file: "script.ts"
